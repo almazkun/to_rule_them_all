@@ -16,7 +16,24 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 699px;
+}
+
+.logo-small {
+  height: 1rem;
+  background-image: url("/static/images/logo.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo-big {
+  height: 3rem;
+  background-image: url("static/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .pricing-header {
